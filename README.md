@@ -46,7 +46,7 @@ pip install -r requirements.txt
 
 ## 运行软件模型
 
-仓库内已经包含处理后的数据。训练 Phase 1 CNN：
+仓库内已经包含处理后的数据（基于FFT 输出512维度。训练 Phase 1 CNN：
 
 ```bash
 python phase1/train_phase1_cnn.py
