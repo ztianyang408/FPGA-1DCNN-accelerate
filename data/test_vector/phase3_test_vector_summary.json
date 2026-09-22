@@ -1,0 +1,11 @@
+{
+  "split": "test_id",
+  "index": 0,
+  "checkpoint": "D:\\srtp\\phase2\\results\\20260830_111828_fpga_cnn\\fpga_friendly_cnn.pt",
+  "true_rpm_label": 2308.932373046875,
+  "phase2_pytorch_expected_rpm": 2203.136200705878,
+  "hls_int8_float_emulation_expected_rpm": 2214.897216796875,
+  "input_shape": [
+    512
+  ]
+}

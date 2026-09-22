@@ -1,0 +1,53 @@
+{
+  "model": "fpga_friendly_1d_cnn",
+  "data_root": "D:\\srtp\\rde_v3_stratified_18000_processed",
+  "results_root": "D:\\srtp\\phase2\\results",
+  "run_dir": "D:\\srtp\\phase2\\results\\20260830_111828_fpga_cnn",
+  "input_shape": [
+    512
+  ],
+  "fpga_design_notes": {
+    "activations": "ReLU",
+    "pooling": "MaxPool1d + global mean",
+    "bn": false,
+    "dropout": false,
+    "target": "rpm regression"
+  },
+  "metrics": [
+    {
+      "split": "train",
+      "mae": 199.5642852783203,
+      "rmse": 286.1611022949219,
+      "mape": 16.20883560180664,
+      "r2": 0.8555470705032349
+    },
+    {
+      "split": "val",
+      "mae": 206.14340209960938,
+      "rmse": 274.2743225097656,
+      "mape": 16.941246032714844,
+      "r2": 0.866063117980957
+    },
+    {
+      "split": "test_id",
+      "mae": 203.66665649414062,
+      "rmse": 273.2867431640625,
+      "mape": 16.93315887451172,
+      "r2": 0.8696697950363159
+    },
+    {
+      "split": "test_geometry",
+      "mae": 213.14170837402344,
+      "rmse": 277.009765625,
+      "mape": 17.9595890045166,
+      "r2": 0.8660376071929932
+    },
+    {
+      "split": "test_hard",
+      "mae": 253.35740661621094,
+      "rmse": 317.7759704589844,
+      "mape": 22.554479598999023,
+      "r2": 0.823584258556366
+    }
+  ]
+}

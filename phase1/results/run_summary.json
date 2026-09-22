@@ -1,0 +1,52 @@
+{
+  "model": "lightweight_1d_cnn",
+  "data_root": "D:\\srtp\\rde_v3_stratified_18000_processed",
+  "results_root": "D:\\srtp\\phase1\\results",
+  "run_dir": "D:\\srtp\\phase1\\results\\20260829_214336_cnn",
+  "input_shape": [
+    512
+  ],
+  "normalization": {
+    "train_mean": "per-feature train mean",
+    "train_std": "per-feature train std",
+    "target_mean": 1693.8572998046875,
+    "target_std": 752.9176025390625
+  },
+  "metrics": [
+    {
+      "split": "train",
+      "mae": 166.92918395996094,
+      "rmse": 248.37210083007812,
+      "mape": 14.078819274902344,
+      "r2": 0.8911795020103455
+    },
+    {
+      "split": "val",
+      "mae": 166.98800659179688,
+      "rmse": 231.72433471679688,
+      "mape": 14.400924682617188,
+      "r2": 0.904396653175354
+    },
+    {
+      "split": "test_id",
+      "mae": 166.68087768554688,
+      "rmse": 235.08102416992188,
+      "mape": 14.506365776062012,
+      "r2": 0.9035631418228149
+    },
+    {
+      "split": "test_geometry",
+      "mae": 179.55322265625,
+      "rmse": 246.78628540039062,
+      "mape": 15.606572151184082,
+      "r2": 0.8936751484870911
+    },
+    {
+      "split": "test_hard",
+      "mae": 226.39105224609375,
+      "rmse": 288.00030517578125,
+      "mape": 20.654769897460938,
+      "r2": 0.8550957441329956
+    }
+  ]
+}

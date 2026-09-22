@@ -1,0 +1,15 @@
+{
+  "export_dir": "D:\\srtp\\phase2\\export",
+  "input_len": 512,
+  "model_type": "fpga_friendly_1d_cnn",
+  "weights": {
+    "float_header": "phase2_weights_float.h",
+    "int8_header": "phase2_weights_int8.h"
+  },
+  "hls_entry": "phase2_rpm_cnn",
+  "notes": [
+    "Vivado cannot consume PyTorch checkpoints directly.",
+    "Use the float header for reference simulation and the int8 header for later fixed-point experiments.",
+    "The current top function is a reference implementation for C Simulation and initial HLS integration."
+  ]
+}

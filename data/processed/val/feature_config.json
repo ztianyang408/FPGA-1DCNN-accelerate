@@ -1,0 +1,8 @@
+{
+  "split": "val",
+  "sample_rate_hz": 20000.0,
+  "freq_low_hz": 20.0,
+  "freq_high_hz": 1600.0,
+  "feature_len": 512,
+  "rows": 2000
+}

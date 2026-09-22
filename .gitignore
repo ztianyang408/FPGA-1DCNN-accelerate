@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Training outputs and local data
+*.log
+data/raw/
+results/runs/
+
+# Vivado/Vitis generated files
+.Xil/
+*.jou
+*.str
+*.wdb
+*.wcfg
+*.dcp
+*.pb
+*.rpx
+*.wdf
+*.wpc
+*.xpe
+*.runs/
+*.cache/
+*.gen/
+*.ip_user_files/
+*.sim/
+*_ide/
+Debug/
+Release/
+.metadata/
+
+# LaTeX/build artifacts
+*.aux
+*.log
+*.out
+*.synctex.gz
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

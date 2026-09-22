@@ -1,0 +1,68 @@
+{
+  "checkpoint": "D:\\srtp\\phase2\\results\\20260830_111828_fpga_cnn\\fpga_friendly_cnn.pt",
+  "model_type": "fpga_friendly_1d_cnn",
+  "input_len": 512,
+  "input_shape": [
+    1,
+    512
+  ],
+  "normalization": {
+    "train_mean": "stored in fpga_friendly_cnn_weights.npz",
+    "train_std": "stored in fpga_friendly_cnn_weights.npz",
+    "target_mean": 1693.8572998046875,
+    "target_std": 752.9176025390625
+  },
+  "layers": [
+    {
+      "name": "input",
+      "shape": [
+        1,
+        512
+      ]
+    },
+    {
+      "name": "conv1_weight",
+      "shape": [
+        8,
+        1,
+        7
+      ]
+    },
+    {
+      "name": "conv2_weight",
+      "shape": [
+        16,
+        8,
+        5
+      ]
+    },
+    {
+      "name": "conv3_weight",
+      "shape": [
+        32,
+        16,
+        3
+      ]
+    },
+    {
+      "name": "fc1_weight",
+      "shape": [
+        16,
+        32
+      ]
+    },
+    {
+      "name": "fc2_weight",
+      "shape": [
+        1,
+        16
+      ]
+    }
+  ],
+  "deployment_notes": [
+    "Vivado does not ingest PyTorch directly.",
+    "Use these exported tensors to implement or verify a Vitis HLS / RTL accelerator.",
+    "Keep ReLU and pooling; avoid BatchNorm and Dropout in the hardware path.",
+    "Quantize before writing the final accelerator."
+  ]
+}
