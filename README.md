@@ -43,7 +43,7 @@ docs/                 技术文档
 - PyTorch
 - NumPy、Pandas、scikit-learn、joblib、matplotlib
 - Vivado/Vitis HLS 2024.2
-- Zynq-7020 开发板
+- Zynq-7020 开发板（使用ECE-EMBD教学开发板）
 
 安装 Python 依赖：
 
