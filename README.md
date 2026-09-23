@@ -2,6 +2,9 @@
 
 基于 Zynq-7020 的涡旋光光电信号空间感知与轻量化 1D-CNN FPGA 边缘推理原型。
 
+## 整体项目框架
+<img width="1081" height="605" alt="image" src="https://github.com/user-attachments/assets/2cf71150-a7a7-4d1e-8c20-cb2160e4db03" />
+
 ## 1DCNN STURCTURE
 <img width="1069" height="264" alt="e9238cd50065ed4c82ac09ec032e193a" src="https://github.com/user-attachments/assets/35efdff5-4609-49ba-9352-beaf3798bdd5" />
 
