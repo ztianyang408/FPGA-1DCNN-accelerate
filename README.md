@@ -34,7 +34,7 @@ fpga/hls_ip/          已封装的 HLS IP
 fpga/vivado/          Block Design、工程入口和板级约束
 fpga/vitis_app/       ARM 端板级演示程序
 fpga/release/         最终 XSA 和 bitstream
-docs/                 技术文档
+docs/                 技术文档与硬件资料
 ```
 
 ## 环境
@@ -43,7 +43,7 @@ docs/                 技术文档
 - PyTorch
 - NumPy、Pandas、scikit-learn、joblib、matplotlib
 - Vivado/Vitis HLS 2024.2
-- Zynq-7020 开发板（使用ECE-EMBD教学开发板）
+- Zynq-7020 开发板（使用ECE-EMBD教学开发板，硬件资料见docs）
 
 安装 Python 依赖：
 
